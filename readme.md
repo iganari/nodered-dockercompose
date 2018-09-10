@@ -1,7 +1,5 @@
 # Node-RED on Docker Compose
 
-:warning: 最終的にはGithubにて公開にしたい :warning:
-
 ## 出来ること
 
 + docker-composeでNode-REDを立ち上げることが出来ます
