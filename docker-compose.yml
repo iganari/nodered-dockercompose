@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  app:
+    build: ./app-ubuntu/
+    ports:
+      - "1880:1880"
+    container_name: "nodered-docker-compose"
+    volumes:
+      - ./_node-red:/home/node-red-user/.node-red
+      # - ./tmp:/tmp/docker
+    # restart: always
