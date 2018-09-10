@@ -1,7 +1,5 @@
 # Node-RED on Docker Compose
 
-:warning: 最終的にはGithubにて公開にしたい :warning:
-
 ## 出来ること
 
 + docker-composeでNode-REDを立ち上げることが出来ます
@@ -32,4 +30,4 @@ dockerc-compose rm -f
 
 ### appコンテナを単体で試したい場合
 
-+ [./app-ubuntu/readme](https://gitlab.com/hejda/factory/nodered-dockercompose/blob/master/app-ubuntu/readme.md) を参照する
++ [./app-ubuntu/readme](https://github.com/iganari/nodered-dockercompose/blob/master/app-ubuntu/readme.md) を参照する
