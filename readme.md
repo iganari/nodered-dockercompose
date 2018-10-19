@@ -20,6 +20,12 @@ docker-compose up -d
 docker-compose stop
 ```
 
++ 状態を確認
+
+```
+docker-compose ps
+```
+
 + コンテナ削除
 
 ```
@@ -34,4 +40,4 @@ http://localhost:1880
 
 ### appコンテナを単体で試したい場合
 
-+ [./app-ubuntu/readme](https://github.com/iganari/nodered-dockercompose/blob/master/app-ubuntu/readme.md) を参照する
++ [app-ubuntu/readme](https://github.com/iganari/nodered-dockercompose/blob/master/app-ubuntu/readme.md) を参照する
