@@ -26,6 +26,10 @@ docker-compose stop
 dockerc-compose rm -f
 ```
 
+## ブラウザ確認
+
+http://localhost:1880
+
 ## Tips
 
 ### appコンテナを単体で試したい場合
