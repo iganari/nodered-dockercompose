@@ -2,9 +2,8 @@
 
 ## 出来ること
 
-+ docker-composeでNode-REDを立ち上げることが出来ます
-+ ホストサーバにdockerとdocker-composeがあれば動くんで、ホスト環境を汚しません
-
++ `docker-compose` を使用して、Node-REDを立ち上げることが出来ます
++ ホストサーバに `docker` と `docker-compose` があれば動くので、ホスト環境を汚しません
 
 ## 使用方法
 
