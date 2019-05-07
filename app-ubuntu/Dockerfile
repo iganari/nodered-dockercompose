@@ -1,5 +1,5 @@
-FROM iganarix/base-ubuntu-16.04
-# https://hub.docker.com/r/iganarix/base-ubuntu-16.04/
+FROM iganarix/base-ubuntu-18.04
+# https://hub.docker.com/r/iganarix/base-ubuntu-18.04
 
 MAINTAINER iganari
 
