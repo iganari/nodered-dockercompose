@@ -28,7 +28,7 @@ docker-compose ps
 + コンテナ削除
 
 ```
-dockerc-compose rm -f
+docker-compose rm -f
 ```
 
 ## ブラウザ確認
