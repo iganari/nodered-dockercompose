@@ -1,12 +1,16 @@
-version: '3.3'
+# ref: https://github.com/node-red/node-red-docker/tree/master#docker-stack--docker-compose
+
+version: '3.7'
 
 services:
-  app:
-    build: ./app-ubuntu/
+  node-red:
+    build: ./node-red/
+    environment:
+      - TZ=Asia/Tokyo
     ports:
       - "1880:1880"
     container_name: "nodered-docker-compose"
     volumes:
-      - ./_node-red:/home/node-red-user/.node-red
+      - ./_node-red:/data
       # - ./tmp:/tmp/docker
     # restart: always
