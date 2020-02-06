@@ -2,8 +2,21 @@
 
 ## 出来ること
 
-+ `docker-compose` を使用して、Node-REDを立ち上げることが出来ます
-+ ホストサーバに `docker` と `docker-compose` があれば動くので、ホスト環境を汚しません
++ `docker-compose` を使用して、Node-REDを立ち上げることが出来ます。
++ ホストマシンに `docker` と `docker-compose` があれば動くので、ホストマシンの環境を汚しません。
+
+## 使用しているソース
+
+GitHub
+
++ node-red-docker
+  + https://github.com/node-red/node-red-docker/tree/master
+
+Docker Hub
+
++ nodered/node-red
+  + https://hub.docker.com/r/nodered/node-red
+
 
 ## 使用方法
 
@@ -37,6 +50,6 @@ http://localhost:1880
 
 ## Tips
 
-### appコンテナを単体で試したい場合
+### コンテナを単体で試したい場合
 
-+ [app-ubuntu/README](https://github.com/iganari/nodered-dockercompose/blob/master/app-ubuntu/README.md) を参照する
++ [node-red/README](https://github.com/iganari/nodered-dockercompose/blob/master/app-ubuntu/README.md) を参照する
