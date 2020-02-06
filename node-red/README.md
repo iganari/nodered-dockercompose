@@ -37,7 +37,7 @@ docker exec -it ${con_name}-con /bin/bash
 
 ### Node-RED の Version の確認
 
-+ Node-RED は以下の JS ファイルで起動しています。 
++ :whale: Node-RED は以下の JS ファイルで起動しています。 
 
 ```
 /usr/src/node-red/node_modules/node-red/red.js
