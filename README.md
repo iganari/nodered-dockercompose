@@ -52,4 +52,4 @@ http://localhost:1880
 
 ### コンテナを単体で試したい場合
 
-+ [node-red/README](https://github.com/iganari/nodered-dockercompose/blob/master/app-ubuntu/README.md) を参照する
++ [node-red/README](./node-red/README.md) を参照しましょう!! :rocket:
