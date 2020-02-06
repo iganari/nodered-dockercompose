@@ -82,6 +82,7 @@ file using your chosen key the next time you deploy a change.
 ### ブラウザで確認
 
 + ホストマシン上の Docker Engine 上で動かしている場合は、以下の URL で確認が出来ます。
+  + :warning: リモートサーバで起動している場合は、FW などを設定の上で IP アドレスを読み替えて下さい。
 
 http://127.0.0.1:1880
 
