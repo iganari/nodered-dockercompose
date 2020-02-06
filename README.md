@@ -10,7 +10,7 @@
 GitHub
 
 + node-red-docker
-  + https://github.com/node-red/node-red-docker/tree/master
+  + https://github.com/node-red/node-red-docker
 
 Docker Hub
 
